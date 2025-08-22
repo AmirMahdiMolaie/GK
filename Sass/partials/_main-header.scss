@@ -6,9 +6,22 @@
 
 /* Main-header */
 .main-header .container{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row-reverse;
-    padding: 20px 0;
+    @include flex-b;
+    padding: 20px 30px;
     background-color: $main-color;
+    div{
+        font-size: 32px;
+        color : $background-color;
+        @include cursor;
+    }
+
+    ul{
+        @include flex-b;
+        gap: 20px;
+        li {
+            @include cursor;
+            font-size: $font-size-header;
+            color : $background-color;
+        }
+    }
 }

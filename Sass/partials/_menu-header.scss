@@ -1,0 +1,13 @@
+.menu-top{
+    @include menu;
+}
+.menu-center{
+    @include flex-c;
+    background-color: $background-color;
+    width: 30px;
+    height: 6px;
+    border-radius: 20px;
+}
+.menu-down{
+    @include menu;
+}

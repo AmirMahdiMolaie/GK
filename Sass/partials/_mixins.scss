@@ -1,0 +1,22 @@
+@mixin flex-b{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@mixin flex-c{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin menu{
+    background-color: $background-color;
+    width: 30px;
+    height: 5px;
+    border-radius: 20px;
+    margin: 5px 0;
+}
+
+@mixin cursor{
+    cursor: pointer;
+}
