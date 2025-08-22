@@ -1,5 +1,5 @@
 .box-slider{
-    padding: 250px 0;
+    padding: 250px 0 150px 0;
     @include flex-c;
     >div{
         background-color: $main-color;

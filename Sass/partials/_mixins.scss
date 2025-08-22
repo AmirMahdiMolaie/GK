@@ -9,6 +9,11 @@
     align-items: center;
 }
 
+@mixin flex-c--a{
+    display: flex;
+    justify-content: center;
+}
+
 @mixin menu{
     background-color: $background-color;
     width: 30px;

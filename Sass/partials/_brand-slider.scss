@@ -1,0 +1,58 @@
+.brand-slider{
+    >div{
+        width: 700px;
+        height: 300px;
+    }
+    .left-slid{
+        @include flex-c--a;
+        background-color: $third-color;
+        position: relative;
+        .title{
+            color: $background-color;
+            font-size: 36px;
+            padding-top: 30px;
+            text-align: center;
+        }
+        img{
+            position: absolute;
+            height: 170px;
+            bottom: -40px;
+            left: 30px;
+        }
+    }
+    .right-slid{
+        @include flex-b;
+        position: relative;
+        z-index: 100;
+        background-color:  $second-color;
+        margin: -150px 0px 0px 380px ;
+        >img{
+            width: 70%;
+            height: 100%;
+        }
+        >div{
+            @include flex-se-c;
+            height: 100%;
+            margin-left: 30px
+        }
+        .rows{
+            @include flex-e;
+            width: 150px;
+            height: 60px;
+            background-color: $background-color;
+            border-radius: 6px;
+            img{
+                width: 15%;
+                height: 50%;
+            }
+        }
+        .row2{
+            height: 80px;
+            background-color: $hover-color;
+            img{
+                width: 40%;
+                height: 100%;
+            }
+        }
+    }
+}
