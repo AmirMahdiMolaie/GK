@@ -20,3 +20,9 @@
 @mixin cursor{
     cursor: pointer;
 }
+
+@mixin flex-se-c{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
