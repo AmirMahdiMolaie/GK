@@ -1,0 +1,56 @@
+.box-slider{
+    padding: 250px 0;
+    @include flex-c;
+    >div{
+        background-color: $main-color;
+        height: 370px;
+        width: 900px;
+        border-radius: 30px;
+        ul{
+            width: 100%;
+            height: 100%;
+            @include flex-e;
+            .slider{
+                @include cursor;
+            }
+            li{
+                background-color: $background-color;
+                width: 180px;
+                height: 300px;
+                border-radius: 5px;
+                @include flex-se-c;
+                align-items: center;
+                img{
+                    width: 80%;
+                    height: 65%;
+                }
+                .chair{
+                    width: 100%;
+                }
+                .cactus{
+                    width: 50%;
+                }
+                p{
+                    font-size: 20px;
+                    color: $main-color;
+                }
+                .title{
+                    font-size: 28px;
+                }
+                .sub-title{
+                    font-size: 14px;
+                    margin: 0 20px;
+                }   
+                .click{
+                    width: 130px;
+                    @include flex-b;
+                    img{
+                        width: 32px;
+                        height: 32px;
+                        @include cursor;
+                    }
+                }
+            }
+        }
+    }
+}
