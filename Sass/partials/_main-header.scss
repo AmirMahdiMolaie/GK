@@ -1,0 +1,14 @@
+
+.container-wide{
+    width: 100%;
+    background-color: $main-color;
+}
+
+/* Main-header */
+.main-header .container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    padding: 20px 0;
+    background-color: $main-color;
+}
